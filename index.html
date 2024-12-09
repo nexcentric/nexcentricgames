@@ -28,6 +28,30 @@
         .container {
             padding: 20px;
         }
+        .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .project {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 8px;
+            max-width: 300px;
+        }
+        .project img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .project a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
         footer {
             margin-top: 20px;
             padding: 10px;
@@ -43,6 +67,23 @@
     <div class="container">
         <p>¡Bienvenido a Nexcentric Games!<br>
            Creatividad en cada movimiento.</p>
+        <p>Descubre nuestros proyectos destacados:</p>
+        <div class="projects">
+            <!-- Proyecto 1 -->
+            <div class="project">
+                <img src="https://cdn.akamai.steamstatic.com/steam/apps/305940/header.jpg" alt="Project Aura">
+                <a href="https://store.steampowered.com/app/305940/Project_AURA/" target="_blank">
+                    Jugar a "Project Aura" en Steam
+                </a>
+            </div>
+            <!-- Proyecto 2 -->
+            <div class="project">
+                <img src="https://m.media-amazon.com/images/I/91+8Z+Jj1yL._AC_SL1500_.jpg" alt="La Guarida del Goblin">
+                <a href="https://www.amazon.es/Guarida-Goblin-Familiar-Inteligencia-Agilidad/dp/B0DK51RQJK" target="_blank">
+                    Comprar "La Guarida del Goblin" en Amazon
+                </a>
+            </div>
+        </div>
     </div>
     <footer>
         &copy; 2024 Nexcentric Games. Todos los derechos reservados.
